@@ -2,7 +2,7 @@
 ## Author
 Rodrigo Nigri Griner
 
-[Código](https://github.com/rodrigonigri/nlp_aps2_rodrigo_nigri_griner/blob/main/notebook.ipynb)
+Para ver o código, acesse o arquivo [notebook.ipynb](https://github.com/rodrigonigri/nlp_aps2_rodrigo_nigri_griner/blob/main/notebook.ipynb)
 
 ## 1. Encontrar Dataset & Embeddings
 
