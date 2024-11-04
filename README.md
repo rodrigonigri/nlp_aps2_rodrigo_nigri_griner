@@ -2,6 +2,8 @@
 ## Author
 Rodrigo Nigri Griner
 
+[Código](https://github.com/rodrigonigri/nlp_aps2_rodrigo_nigri_griner/blob/main/notebook.ipynb)
+
 ## 1. Encontrar Dataset & Embeddings
 
 O dataset utilizado no projeto foi produzido a partir de um web scraping do site [Letras.mus.br](https://www.letras.mus.br/). O dataset contém 1000 músicas do estilo pop de artistas variados. As músicas foram extraídas e armazenadas em um arquivo CSV. Cada linha do arquivo representa uma música, contendo informações como título, artista e letra. Observe abaixo uma amostra do dataset:
