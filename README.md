@@ -18,6 +18,13 @@ Para gerar embeddings para o dataset, foi escolhida a representação de vetores
 
 O processo de treinamento do autoencoder envolve a minimização do Erro Quadrático Médio (MSE) entre a entrada e os embeddings reconstruídos. MSE é uma função de perda apropriada aqui porque penaliza diretamente grandes diferenças entre os vetores originais e reconstruídos, o que ajuda o autoencoder a aprender uma representação comprimida que captura as características mais significativas de cada embedding. Ao minimizar o MSE, o autoencoder aprende a remover ruído e redundância, tornando os embeddings reduzidos mais significativos para tarefas de recuperação baseadas em similaridade.
 
+$$
+\begin{equation}
+MSE = \frac{1}{n} \sum_{i=1}^{n} (x_i - \hat{x}_i)^2
+\end{equation}
+$$
+
+<sup> Equação 1: Fórmula do Erro Quadrático Médio (MSE) </sup>
 
 ## 2. Visualizar os embeddings
 
